@@ -30,7 +30,5 @@
     name:
       - docker
       - docker.io
-      - docker-compose
-      - docker-registry
-    state: absent
+    state: present
     update_cache: true
