@@ -2,3 +2,5 @@
 - name: install Docker
   hosts: apache
   become: true
+  roles:
+   - role: docker
