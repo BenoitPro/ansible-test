@@ -2,7 +2,5 @@
 - name: "Installation docker"
   hosts: apache
   roles:
-  - role: "apache"
-    php_install: no
-  - role: "front"
+  - role: "docker"
     
