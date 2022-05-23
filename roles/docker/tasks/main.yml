@@ -1,4 +1,9 @@
 ---
+- name: cleanup
+  file:
+    state: absent
+    path:  /etc/apt/sources.list.d/
+    
 - name: Install apt-transport-https
   ansible.builtin.apt:
     name:
