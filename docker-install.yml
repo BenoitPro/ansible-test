@@ -1,6 +1,4 @@
 ---
-- name: "Installation docker"
+- name: install Docker
   hosts: apache
-  roles:
-  - role: "docker"
-    
+  become: true
